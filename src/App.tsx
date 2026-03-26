@@ -14,7 +14,10 @@ const FACEBOOK_BOOKING_URL = "https://www.facebook.com/profile.php?id=6158846166
 const Navbar = ({ activeTab, setActiveTab }: { activeTab: Tab, setActiveTab: (tab: Tab) => void }) => (
   <nav className="brutal-border-b py-4 px-6 flex justify-between items-center sticky top-0 bg-brand-bg z-50">
     <div className="flex items-center gap-2 cursor-pointer" onClick={() => setActiveTab("home")}>
-      <img src="/uploaded-photo-9.jpg" alt="SeaFoam Photo" className="h-16 w-auto object-contain scale-125 origin-left" />
+      <div className="w-8 h-8 bg-brand-ink rounded-full flex items-center justify-center text-brand-bg">
+        <Camera size={18} />
+      </div>
+      <span className="font-bold text-xl tracking-tighter uppercase">SeaFoam Photo</span>
     </div>
     <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest">
       <button 
