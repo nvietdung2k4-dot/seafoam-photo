@@ -85,9 +85,7 @@ const Home = () => {
               <p className="text-xl lg:text-2xl font-serif italic mb-8 max-w-md">
                 "Thanh xuân trong trẻo, Khung hình trọn vẹn"
               </p>
-              <div className="brutal-border rounded-full px-6 py-2 text-sm font-bold uppercase inline-block">
-                www.seafoamphoto.com
-              </div>
+
             </motion.div>
           </div>
           <div className="relative h-[400px] lg:h-auto overflow-hidden p-4 lg:p-8 bg-brand-ink">
